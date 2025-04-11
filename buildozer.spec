@@ -16,12 +16,12 @@ presplash.filename = splash.png
 icon.filename = icon.png
 
 
-android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE,MANAGE_EXTERNAL_STORAGE,READ_MEDIA_IMAGES,READ_MEDIA_VIDEO,READ_MEDIA_AUDIO
+android.permissions = INTERNET
 android.archs = arm64-v8a
 android.ndk = 25b
 android.api = 33
 android.release_artifact = apk
-debug = 0
+debug = 1
 
 android.allow_backup = True
 android.logcat = True
